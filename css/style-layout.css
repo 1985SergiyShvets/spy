@@ -1,0 +1,178 @@
+@media screen and (min-width: 1201px) and (max-width: 1620px) {
+  .karkas {
+    width: 82%;
+  }
+} 
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .karkas {
+    width: 95%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .karkas {
+    width: 95%;
+  }
+  .kontkol1 {
+    order: 1;
+  }
+  .kontkol2 {
+    order: 2;
+  }
+  .kont_center {
+    order: 3;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+  .kont_img {
+    margin: 10px; 
+  }
+  .kont_form {
+    margin-right: 10px;
+  }
+  .navigation {
+    margin-left: 10px;
+    margin-top: 59px;
+    height: 297px;
+  }
+  .foot2 {
+    padding-right: 20px;
+}
+.foot {
+  font-size: 0.8rem;
+}
+.first {
+  background-size: 100%;
+}
+.second {
+  background-size: 120%;	
+  }
+}
+@media (min-width: 581px) and (max-width: 767px) {
+  .karkas {
+    width: 96%;
+  }
+  .kontkol1 {
+    order: 1;
+  }
+  .kontkol2 {
+    order: 2;
+  }
+  .kont_center {
+    order: 3;
+  }
+  .kkk p {
+    margin-bottom: 20px;
+  }
+  .kont_form h1 {
+    color: rgb(255, 0, 0);
+  }
+  .foot {
+    font-size: 0.7rem;
+  }
+ .footb {
+  font-size: 0.6em;
+  }
+  .footline1, .footline2 {
+    height: 10px;
+  }
+  .kont_img {
+    margin: 5px; 
+  }
+  .first {
+    background-size: 120%;
+  }
+  .second {
+    background-size: 150%;	
+  }
+}
+@media (min-width: 310px) and (max-width: 580px) {
+  .karkas {
+    width: 98%;
+  }
+  .foot {
+    font-size: 0.6rem;
+    padding: 0;
+  }
+  .foot2 {
+    order: 1;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  .foot1 {
+    order: 2;
+  }
+  .foot3 {
+    order: 3;
+  }    
+  .foot2 {
+    width: 100%;
+  }
+  .footb {
+    font-size: 0.6em;
+  }
+  .footline1, .footline2 {
+    height: 8px;
+  }
+  .footh2 {
+    font-size: 18px;
+  }
+  .footimg {
+    max-width: 60px;
+  }
+  #offers {
+    font-size: 0.8em;
+  }
+  .type_text {
+    font-size: 1em;
+  }
+  h2, h3 {
+    font-size: 1.3em;
+  }
+  .kontkol1 {
+    order: 1;
+  }
+  .kontkol2 {
+    order: 2;
+  }
+  .kont_center {
+    order: 3;
+  }
+  .kont_img {
+    width: 280px;
+  }
+  .kkk {
+    margin-bottom: 8px;
+  }
+  .navigation {
+    width: 280px;
+  }
+  .kont_form h1 {
+    color: rgb(255, 0, 0);
+  }
+  .form {
+    width: 280px;
+    font-size: 1.1rem;
+  }
+  .name1 {
+    width: 276px;
+    height: 30px;
+    font-size: 1.125rem;
+  }
+  .textarea {
+    width: 278px;
+    height: 130px;
+    font-size: 1.3rem;
+  }
+  .buttonform {
+    width: 280px;
+  }
+  .first {
+    background-size: 140%;
+  }
+  .second {
+    background-size: 200%;	
+  }
+}
+
+
