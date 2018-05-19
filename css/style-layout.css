@@ -7,6 +7,10 @@
   .karkas {
     width: 95%;
   }
+  .button-three {
+    font-size:18px;
+    padding: 10px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .karkas {
@@ -47,6 +51,10 @@
 .second {
   background-size: 120%;	
   }
+  .button-three {
+    font-size:18px;
+    padding: 10px;
+  }
 }
 @media (min-width: 581px) and (max-width: 767px) {
   .karkas {
@@ -84,6 +92,10 @@
   }
   .second {
     background-size: 150%;	
+  }
+  .button-three {
+    font-size:18px;
+    padding: 10px;
   }
 }
 @media (min-width: 310px) and (max-width: 580px) {
@@ -138,9 +150,6 @@
   .kont_center {
     order: 3;
   }
-  .kont_img {
-    width: 280px;
-  }
   .kkk {
     margin-bottom: 8px;
   }
@@ -172,6 +181,10 @@
   }
   .second {
     background-size: 200%;	
+  }
+  .button-three {
+    font-size:14px;
+    padding: 6px;
   }
 }
 
