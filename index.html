@@ -7,6 +7,7 @@
     <link href="css/style_preload.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/style-layout.css" rel="stylesheet" type="text/css">
+    <script src="js/audio.js"></script>
     <title>Спай</title>
 </head>
 <body>
@@ -24,10 +25,8 @@
         <a href="main.html"><div><img src="images/check-mark.png" title="Дізнатись більше"></div></a>   
     </div>
 </div>
-  <audio autoplay>
-    <source src="audio/1.mp3" type="audio/mpeg">
-  </audio>
 <script src="js/wow.js"></script>
+<script> createjs.Sound.registerSound("audio/1.mp3", "x"); setTimeout(function () { createjs.Sound.play("x"); }, 500) </script>
 <script>new WOW().init();</script> 
 </body>
 </html>
